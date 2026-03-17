@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spice Garden | Experience the Flavors of the World</title>
+    <meta name="description"
+        content="Spice Garden offers a vibrant culinary journey with world-class spices and flavors. Book your table today.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-leaf" style="color: var(--primary);"></i> Spice Garden
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#reservation" class="btn-nav">Book a Table</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Variation 1: Hero Section (Default) Focus on Ambiance & Experience -->
+    <header class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Where Every Dish is<br>a <span class="text-highlight">Garden of Spices</span></h1>
+            <p class="hero-tagline">Experience the Flavors of the World in an unforgettable dining atmosphere.</p>
+            <div class="hero-buttons">
+                <a href="#reservation" class="btn btn-primary">Book a Table</a>
+                <a href="#menu" class="btn btn-outline">Explore Menu</a>
+                <a href="#order" class="btn btn-secondary">Order Online</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Menu Section -->
+    <section class="menu section" id="menu">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our <span class="text-highlight">Exquisite</span> Menu</h2>
+                <p>A culinary journey curated with the finest spices from around the globe.</p>
+            </div>
+
+            <div class="menu-categories">
+                <button class="menu-btn active">All</button>
+                <button class="menu-btn">Starters</button>
+                <button class="menu-btn">Main Courses</button>
+                <button class="menu-btn">Desserts</button>
+                <button class="menu-btn">Beverages</button>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Item 1 -->
+                <div class="menu-item card">
+                    <img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?q=80&w=800&auto=format&fit=crop"
+                        alt="Spicy Tikka Starter">
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Saffron Tikka Skewers</h3>
+                            <span class="price">$14.00</span>
+                        </div>
+                        <p>Tender chicken marinated in saffron, yogurt, and authentic spices, char-grilled to
+                            perfection.</p>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="menu-item card">
+                    <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=800&auto=format&fit=crop"
+                        alt="Pizza">
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Spicy Margherita Flatbread</h3>
+                            <span class="price">$18.50</span>
+                        </div>
+                        <p>Wood-fired flatbread with fresh mozzarella, bursting cherry tomatoes, and chili flakes.</p>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="menu-item card">
+                    <img src="https://images.unsplash.com/photo-1544025162-8315ea07f239?q=80&w=800&auto=format&fit=crop"
+                        alt="Curry">
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Royal Cardamom Curry</h3>
+                            <span class="price">$24.00</span>
+                        </div>
+                        <p>A rich, slow-cooked melody of vegetables in a creamy tomato and cardamom reduction.</p>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="menu-item card">
+                    <img src="https://images.unsplash.com/photo-1563805042-7684c8a9e9cb?q=80&w=800&auto=format&fit=crop"
+                        alt="Dessert">
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Cinnamon Molten Lava</h3>
+                            <span class="price">$12.00</span>
+                        </div>
+                        <p>Decadent chocolate cake infused with Mexican cinnamon, served with vanilla bean ice cream.
+                        </p>
+                    </div>
+                </div>
+                <!-- Item 5 -->
+                <div class="menu-item card">
+                    <img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?q=80&w=800&auto=format&fit=crop"
+                        alt="Beverage">
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Ginger Mint Cooler</h3>
+                            <span class="price">$8.00</span>
+                        </div>
+                        <p>Refreshing mocktail blending fresh mint, ginger root extract, and a splash of lime.</p>
+                    </div>
+                </div>
+                <!-- Item 6 -->
+                <div class="menu-item card">
+                    <img src="https://images.unsplash.com/photo-1564834724105-918b73d1b9e0?q=80&w=800&auto=format&fit=crop"
+                        alt="Main Course">
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Harissa Roasted Lamb</h3>
+                            <span class="price">$32.00</span>
+                        </div>
+                        <p>Slow-roasted lamb shanks rubbed with house-made North African harissa paste.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section bg-light" id="about">
+        <div class="container about-container">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1577106263724-2c8e03bfe9cf?q=80&w=800&auto=format&fit=crop"
+                    alt="Chef at work">
+            </div>
+            <div class="about-content">
+                <h2>Our <span class="text-highlight">Story</span></h2>
+                <h3 class="subtitle">A legacy built on flavor.</h3>
+                <p>Spice Garden was born from a passion for exploring the world's most vibrant culinary traditions. We
+                    believe that spices are the soul of food, capable of transforming simple ingredients into
+                    extraordinary experiences.</p>
+                <p>Our Head Chef, Elena Rodriguez, brings over 20 years of international culinary experience, carefully
+                    sourcing sustainable and organic spices to craft dishes that dance on the palate.</p>
+
+                <div class="stats">
+                    <div class="stat-item">
+                        <h4 class="stat-number">15+</h4>
+                        <p>Years of Excellence</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4 class="stat-number">50+</h4>
+                        <p>Global Spices Sourced</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4 class="stat-number">10k+</h4>
+                        <p>Happy Guests</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section class="reservation section" id="reservation">
+        <div class="container reservation-container">
+            <div class="reservation-info">
+                <h2>Book Your <span class="text-highlight">Table</span></h2>
+                <p>Reserve a spot at Spice Garden for an unforgettable dining experience. Whether it's a romantic dinner
+                    or a family gathering, we have the perfect setting for you.</p>
+                <ul class="contact-info-list">
+                    <li><i class="fa-solid fa-clock"></i> <strong>Mon - Sun:</strong> 11:00 AM - 11:00 PM</li>
+                    <li><i class="fa-solid fa-phone"></i> +1 (555) 123-4567</li>
+                </ul>
+            </div>
+            <div class="reservation-form-wrapper card">
+                <form class="reservation-form">
+                    <div class="form-row">
+                        <div class="input-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" placeholder="(555) 000-0000" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="input-group">
+                            <label for="date">Date</label>
+                            <input type="date" id="date" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="time">Time</label>
+                            <input type="time" id="time" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="guests">Guests</label>
+                            <select id="guests">
+                                <option value="1">1 Person</option>
+                                <option value="2" selected>2 People</option>
+                                <option value="3">3 People</option>
+                                <option value="4">4 People</option>
+                                <option value="5+">5+ People</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for="requests">Special Requests</label>
+                        <textarea id="requests" rows="3"
+                            placeholder="Allergies, seating preferences, occasions..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Confirm Reservation</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery section bg-light" id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>Inside <span class="text-highlight">Spice Garden</span></h2>
+                <p>A glimpse into our vibrant ambiance and culinary creations.</p>
+            </div>
+            <div class="gallery-grid">
+                <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=800&auto=format&fit=crop"
+                    alt="Interior" class="gallery-img">
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=800&auto=format&fit=crop"
+                    alt="Food Prep" class="gallery-img">
+                <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=800&auto=format&fit=crop"
+                    alt="Restaurant Seating" class="gallery-img">
+                <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=800&auto=format&fit=crop"
+                    alt="Fine Dining" class="gallery-img">
+                <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=800&auto=format&fit=crop"
+                    alt="Spices" class="gallery-img">
+                <img src="https://images.unsplash.com/photo-1544148103-0773bf10d330?q=80&w=800&auto=format&fit=crop"
+                    alt="Chef" class="gallery-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews section" id="reviews">
+        <div class="container">
+            <div class="section-title">
+                <h2>What Our <span class="text-highlight">Guests</span> Say</h2>
+                <p>Real experiences from our beloved patrons.</p>
+            </div>
+            <div class="reviews-grid">
+                <!-- Review 1 -->
+                <div class="review-card card">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="review-text">"An absolute triumph of flavors. The Harissa Roasted Lamb was meltingly
+                        tender and perfectly spiced. The ambiance is beautifully vibrant yet cozy."</p>
+                    <div class="reviewer">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=150&auto=format&fit=crop"
+                            alt="Sarah J.">
+                        <div class="reviewer-info">
+                            <h4>Sarah Jenkins</h4>
+                            <span>Food Critic</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Review 2 -->
+                <div class="review-card card">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p class="review-text">"Spice Garden lives up to its name. The aromatic curries transported me
+                        straight back to my travels. Highly recommend booking in advance!"</p>
+                    <div class="reviewer">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=150&auto=format&fit=crop"
+                            alt="Mark T.">
+                        <div class="reviewer-info">
+                            <h4>Mark Thompson</h4>
+                            <span>Local Guide</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Review 3 -->
+                <div class="review-card card">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="review-text">"From the impeccable service to the stunning presentation (and even better
+                        taste), choosing this spot for our anniversary was a brilliant decision."</p>
+                    <div class="reviewer">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=150&auto=format&fit=crop"
+                            alt="Emily R.">
+                        <div class="reviewer-info">
+                            <h4>Emily & David</h4>
+                            <span>Regular Diners</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo footer-logo">
+                    <i class="fa-solid fa-leaf"></i> Spice Garden
+                </a>
+                <p>Bringing you an unforgettable symphony of flavors, right in the heart of the city.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Our Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#reservation">Reservations</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p>123 Culinary Avenue, Food District, NY 10001</p>
+                <p>hello@spicegarden.com</p>
+                <p>+1 (555) 123-4567</p>
+            </div>
+
+            <div class="footer-newsletter">
+                <h4>Newsletter</h4>
+                <p>Subscribe to receive seasonal menu updates and exclusive offers.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your Email Address" required>
+                    <button type="submit" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Spice Garden. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Simple JS for Sticky Nav and Active States -->
+    <script>
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+
+</html>
